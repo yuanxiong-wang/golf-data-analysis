@@ -1,0 +1,931 @@
+<!DOCTYPE HTML>
+
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/cf_scripts/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8585;
+_cf_flash_policy_port=1243;
+/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	var _cf_javascriptCalls=ColdFusion.AjaxProxy.init('/cfc/javascriptCalls.cfc','scorecard');
+	_cf_javascriptCalls.prototype.getStaffAndPlayersDisplay=function(tid,tournamentTeamID,bg) { return ColdFusion.AjaxProxy.invoke(this, "getStaffAndPlayersDisplay","7C5CA3E16E67BE72", {tid:tid,tournamentTeamID:tournamentTeamID,bg:bg});};
+	_cf_javascriptCalls.prototype.getEmbeddedTeamScorecardByQuery=function(tid,rid,ttid,bg,cutrid) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedTeamScorecardByQuery","7C5CA3E16E67BE72", {tid:tid,rid:rid,ttid:ttid,bg:bg,cutrid:cutrid});};
+	_cf_javascriptCalls.prototype.getStaffAndPlayers=function(tid,tournamentTeamID,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getStaffAndPlayers","7C5CA3E16E67BE72", {tid:tid,tournamentTeamID:tournamentTeamID,dsn:dsn});};
+/* ]]> */</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="REFRESH" CONTENT="300">
+<meta name="expires" content="Wed, 03 Jun 2026 09:23:05 GMT">
+
+<style type="text/css">
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+}
+.hideDiv { 
+    display: inline-block; 
+}
+@media only screen and (max-width: 800px) {
+        .hideDiv{
+            display: none;
+        }
+    }
+
+</style>
+<title>Team - The Carolina Cup - 2022-10-09</title>
+<link href="/resource/gsstyles.css?v=1.25" type=text/css rel=stylesheet>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-218784916-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-218784916-1');
+</script>
+
+</head>
+
+<body>
+
+	<div style="clear:both;width:100%;">
+		<!-- GolfStat golfweek Nike -->
+		<div  style="width:100%;margin:5px 0px 5px 0px;" align="center">
+			
+			
+			<script type='text/javascript'>
+					var gptadslots=[], googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+					(function(){ var gads = document.createElement('script');
+						 gads.async = true; gads.type = 'text/javascript';
+						 var useSSL = 'https:' == document.location.protocol;
+						 gads.src = (useSSL ? 'https:' : 'https:') + '//www.googletagservices.com/tag/js/gpt.js';
+						 var node = document.getElementsByTagName('script')[0];
+						 node.parentNode.insertBefore(gads, node);
+					})();
+			</script>
+			<script type='text/javascript' src='https://img.bnqt.com/lib/js/sdpdfphelper.js'></script>
+			<script type='text/javascript'>
+					googletag.cmd.push(function() {
+						 googletag.pubads().enableAsyncRendering(); googletag.pubads().enableSingleRequest();
+						 googletag.pubads().setTargeting('title', sdpTargeting.title)
+												 .setTargeting('targetPaths', sdpTargeting.targetPaths)
+												 .setTargeting('fullPath', sdpTargeting.fullPath)
+												 .setTargeting('queryStr', sdpTargeting.queryStr)
+												 .setTargeting('domainName', sdpTargeting.domainName);
+					});
+			</script>
+			<!-- DFP SETUP end -->
+			
+					<!-- SMG_Golfstat/728x90_2a/sports/golf/general -->
+					<div id='usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general'>
+						  <script type='text/javascript'>
+								googletag.cmd.push(function() {
+									 googletag.defineSlot('/7103,22643639221/SMG_Golfstat/728x90_2a/sports/golf/general', [728,90], 'usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general').addService(googletag.pubads());
+									 googletag.enableServices();
+									 googletag.display('usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general');
+								});
+						  </script>
+					</div>
+				
+
+
+
+
+		</div>
+	</div>
+
+
+	<div style="background:url('/images/logos/oldglory_gsbk.jpg');min-height:100%;min-width:100%;display:flex auto;border:0px solid green;">
+        
+        
+        
+		<script>
+			function getScorecard(tid,rid,ttid,bg,stayVisible,cutrid) {
+				var scDiv = 'team'+ttid;
+				//alert(document.getElementById(scDiv).style.visibility);
+				if (document.getElementById(scDiv).style.visibility == 'visible' && stayVisible != 1) {
+					document.getElementById(scDiv).style.display='none';
+					document.getElementById(scDiv).style.visibility='hidden';
+				}
+				else {
+					var instance = new scorecard();
+					instance.setCallbackHandler(placeScorecard);
+					instance.getEmbeddedTeamScorecardByQuery(tid,rid,ttid,bg,cutrid);
+					//instance.getEmbeddedTeamScorecard(tid,rid,ttid,bg);
+				}
+			}
+			
+			function getTeamScorecard(tid,rid,ttid,bg,stayVisible,cutrid) {
+				var scDiv = 'team'+ttid;
+				//alert(document.getElementById(scDiv).style.visibility);
+				if (document.getElementById(scDiv).style.visibility == 'visible' && stayVisible != 1) {
+					document.getElementById(scDiv).style.display='none';
+					document.getElementById(scDiv).style.visibility='hidden';
+				}
+				else {
+					var instance = new scorecard();
+					instance.setCallbackHandler(placeScorecard);
+					instance.getEmbeddedTeamScorecardByQuery(tid,rid,ttid,bg,cutrid);
+					//instance.getEmbeddedTeamScorecard(tid,rid,ttid,bg);
+				}
+			}
+			
+			function placeScorecard(result) {
+				//alert(result.PCID[0]);
+				//alert(result.CONTENT[0]);
+				var scDiv = 'team'+result.TTID;
+				//alert(scDiv);
+				document.getElementById(scDiv).style.display='block';
+				document.getElementById(scDiv).style.visibility='visible';
+				document.getElementById(scDiv).innerHTML = result.CONTENT;
+			}
+			// function placeScorecard(result) {
+			// 	//alert(result.PCID[0]);
+			// 	//alert(result.CONTENT[0]);
+			// 	var scDiv = 'team'+result.TTID[0];
+			// 	//alert(scDiv);
+			// 	document.getElementById(scDiv).style.display='block';
+			// 	document.getElementById(scDiv).style.visibility='visible';
+			// 	document.getElementById(scDiv).innerHTML = result.CONTENT[0];
+			// }
+		</script>
+	
+
+<div style="padding:1px;font-family:Arial, Helvetica, sans-serif;font-size:.9em;height:100%" align="center">
+
+	<div>
+		<div style="display:inline-block;background-color:#05643A;color:white;border:1px solid #05643A;">
+			<div style="width:100%;">
+				
+<style>
+    .bgimage {
+        background-image: url(/images/Header2021_1130x150.png);
+        width: auto;
+        height: auto;
+    }
+</style>
+
+        
+        <div style="height:150px;padding:1px;font-family:Arial, Helvetica, sans-serif;font-size:.9em;background-color:#CDDECD;color:#05643A; background-image:url(/images/Header2021_1130x150.png);" align="left">
+            
+            
+            <div style="height:79%;width:100%;">
+                <div style="display:inline-block;width:130px;">
+                    <a href="http://www.golfstat.com"><img src="/images/GSlogo_255x74.svg" width="120" border="0" alt="Golfstat" title="Golfstat" style="margin-left:0.5em; margin-top:0.25em;"></a>
+                </div>
+                <div style="display:inline-block;padding-top:4px;margin-left:-0.5em;font-weight:bold; vertical-align:top;">
+                    Live Scoring for Competitive Team Golf!
+                </div>
+            </div>
+            
+                <div style="width:100%; border:0px solid silver;">
+                    	
+<div style="clear:both;width:100%;">
+
+                                <div style="width:100%;white-space:nowrap;min-width:47em;">
+                                    
+                                        <div style="display:inline-block;width:20.0%;" align="left">
+                                            
+                                            <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team Leaderboard" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=team&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=team&tid=26416'; }">
+                                            
+                                        </div>
+                                        
+                                            <div style="display:inline-block;width:59.0%;" align="center">
+                                                
+                                                    
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team/Player LB" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=teamPlayer&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=teamPlayer&tid=26416'; }">
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Pairings" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=pairings&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=pairings&tid=26416'; }">
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team/Player Stats" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=stats&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=stats&tid=26416'; }">
+                                                    
+                                                    <button class="btn btn-default btn-xs" style="font-size:0.9em;font-style: italic;" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=print&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=print&tid=26416'; }">Printables <img src="/images/print_icon.gif" border="0" align="absmiddle" height="14"></button>&nbsp;&nbsp;&nbsp;
+                                                
+                                            </div>
+                                        
+                                        <div style="display:inline-block;width:20.0%;" align="right">
+                                            
+                                            <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Player Leaderboard" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=player&tid=26416'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=player&tid=26416'; }">
+                                        </div>
+                                    
+                                </div>
+                                
+</div>
+
+                </div>
+            
+        </div>
+    
+			</div>
+
+            
+				<div style="text-align:center;background-color:#05643A;color:white;padding:5px;">
+					<div style="font-weight:bold;font-size:larger;">
+                        
+							<a href="/public/leaderboards/gsnav.cfm?pg=participants&tid=26416&x=0.12697288997" style="color:white;">The Carolina Cup</a>
+						
+					</div>
+					<div>Team Leaderboard</div>
+					
+					
+						<div>Carolina Country Club - Par-72 - Par 72 - 6929 Yards</div>
+						
+					
+					<div>Spartanburg, SC US</div>
+					<div style="width:100%;white-space:nowrap;">
+						<div style="display:inline-block;" align="center">
+							Oct 9-11, 2022 
+						</div>
+					</div>
+					
+	
+					
+					<div>
+				</div>
+				 
+	<div style="white-space:nowrap;">
+		<div style="display:inline-block;background-color:#ffffff;color:black;padding:5px;border:1px solid #05643A;font-weight:normal;font-size:1.07em;white-space:nowrap;">
+            
+                        <div style="margin-top:-4px;font-weight:normal;font-size:1.09em;background-color:#05643A;color:white;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">Pos</div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;"><span style="background-color:#FFFFFF; padding:0px 3px; "> <img src="/images/moveup.png" align="absmiddle"> <img src="/images/movedown.png" align="absmiddle"> </span></div>
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 6px; text-align:left;">Team</div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">To Par</div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">Thru</div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">Today</div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">R1</div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">R2</div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">R3</div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">Total</div>
+                        </div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">1</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/moveup.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,9)">UAB</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">-20</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">-12</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>292</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>276</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>276</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                844
+                            </div>
+                        </div>
+                        
+                        <div id="team9" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">2</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/movedown.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,7)">Lipscomb</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">-10</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">-1</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>285</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>282</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>287</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                854
+                            </div>
+                        </div>
+                        
+                        <div id="team7" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">3</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,13)">Western Carolina</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">E</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">E</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>290</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>286</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>288</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                864
+                            </div>
+                        </div>
+                        
+                        <div id="team13" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">4</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/moveup.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,8)">Mercer</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+4</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">E</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>282</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>298</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>288</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                868
+                            </div>
+                        </div>
+                        
+                        <div id="team8" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">5</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/movedown.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,10)">UCF</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+5</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+3</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>285</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>293</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>291</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                869
+                            </div>
+                        </div>
+                        
+                        <div id="team10" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">6</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,1)">Charleston Southern</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+9</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+3</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>289</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>293</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>291</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                873
+                            </div>
+                        </div>
+                        
+                        <div id="team1" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">7</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/movedown.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,11)">Connecticut</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+22</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+16</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>285</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>297</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>304</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                886
+                            </div>
+                        </div>
+                        
+                        <div id="team11" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">T8</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/moveup.png" align="absmiddle"> 2 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,5)">Jacksonville</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+25</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+5</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>287</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>309</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>293</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                889
+                            </div>
+                        </div>
+                        
+                        <div id="team5" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">T8</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,15)">Wofford College</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+25</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+9</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>296</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>296</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>297</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                889
+                            </div>
+                        </div>
+                        
+                        <div id="team15" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">10</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    <img src="/images/movedown.png" align="absmiddle"> 1 
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,6)">Kennesaw State</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+27</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+10</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>298</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>295</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>298</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                891
+                            </div>
+                        </div>
+                        
+                        <div id="team6" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">11</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,3)">High Point</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+34</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+9</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>293</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>308</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>297</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                898
+                            </div>
+                        </div>
+                        
+                        <div id="team3" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">12</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,14)">Winthrop</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+44</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+12</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>312</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>296</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>300</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                908
+                            </div>
+                        </div>
+                        
+                        <div id="team14" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">13</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,12)">USC Upstate</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+47</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+13</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>308</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>302</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>301</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                911
+                            </div>
+                        </div>
+                        
+                        <div id="team12" style="display:none;visibility:hidden;"></div>
+                    
+                        <div style="background-color:#ffffff;white-space:nowrap;">
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+                                <div style="inline-block;text-align:center">14</div>
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+                                &nbsp;
+                                <span style="font-size:smaller;">
+                                
+                                    -
+                                
+                                &nbsp;
+                                </span>
+                                
+                            </div>
+                            
+                            <div style="display:inline-block;border:1px solid silver; width:210px;padding:2px 2px 2px 8px; text-align:left;white-space:nowrap;">
+                                
+                                        <a href="javascript://"onclick="getTeamScorecard(26416,3,2)">Creighton</a>
+                                    
+                                
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+55</div></div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                F 					
+                            </div>
+                            <div style="display:inline-block;border:1px solid silver; width:60px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.75em;" align="center">+15</div></div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>308</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>308</round_score> 
+                                </div>
+                            
+                                <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                    <?xml version="1.0" encoding="UTF-8"?><round_score>303</round_score> 
+                                </div>
+                            
+                            <div class="hideDiv" style="border:1px solid silver; width:60px;padding:2px; text-align:center;">
+                                919
+                            </div>
+                        </div>
+                        
+                        <div id="team2" style="display:none;visibility:hidden;"></div>
+                    
+            </div>
+            
+				
+		</div>
+	</div>
+	<div style="background-color:white;margin:2em;"></div>
+    </div>
+
+
+</div>
+
+
+
+</div>
+
+	</div>
+
+
+</body>
+
+</html>

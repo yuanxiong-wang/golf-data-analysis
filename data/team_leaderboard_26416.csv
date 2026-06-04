@@ -1,0 +1,15 @@
+position,movement,team,to_par,thru,today,r1,r2,r3,total,final_round_change,consistency_range
+1,Up 1,UAB,-20,F,-12,292,276,276,844,0,16
+2,Down 1,Lipscomb,-10,F,-1,285,282,287,854,5,5
+3,No change,Western Carolina,0,F,0,290,286,288,864,2,4
+4,Up 1,Mercer,4,F,0,282,298,288,868,-10,16
+5,Down 1,UCF,5,F,3,285,293,291,869,-2,8
+6,No change,Charleston Southern,9,F,3,289,293,291,873,-2,4
+7,Down 1,Connecticut,22,F,16,285,297,304,886,7,19
+T8,Up 2,Jacksonville,25,F,5,287,309,293,889,-16,22
+T8,No change,Wofford College,25,F,9,296,296,297,889,1,1
+10,Down 1,Kennesaw State,27,F,10,298,295,298,891,3,3
+11,No change,High Point,34,F,9,293,308,297,898,-11,15
+12,No change,Winthrop,44,F,12,312,296,300,908,4,16
+13,No change,USC Upstate,47,F,13,308,302,301,911,-1,7
+14,No change,Creighton,55,F,15,308,308,303,919,-5,5

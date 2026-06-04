@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/trash/
+.trash/
+
+# Obsidian plugin local data that may contain machine-specific settings
+.obsidian/plugins/obsidian-git/data.json
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*

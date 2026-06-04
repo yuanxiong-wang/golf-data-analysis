@@ -8,6 +8,13 @@ Obsidian vault for golf leaderboard data, analysis scripts, and weekly reports.
 - `data/` stores parsed datasets.
 - `reports/` stores Markdown analysis reports.
 - `scripts/` stores reproducible parsing and report-generation scripts.
+- `docs/junior-golf-report/index.html` is the boss-facing HTML report page.
+
+## Start Here
+
+- [Junior Golf HTML Report](docs/junior-golf-report/index.html)
+- [Junior Golf Deep Dive](reports/junior_golf_deep_dive_2026-06-04.md)
+- [Golfstat Source Inventory](reports/golfstat_data_inventory_2026-06-04.md)
 
 ## Rebuild Latest Report
 

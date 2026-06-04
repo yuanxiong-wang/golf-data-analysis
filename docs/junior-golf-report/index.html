@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Junior Golf Data Analysis</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17201a;
+      --muted: #667067;
+      --line: #d8ded7;
+      --surface: #f7f8f5;
+      --panel: #ffffff;
+      --green: #1f7a4d;
+      --green-dark: #145335;
+      --gold: #b8801b;
+      --blue: #2f6f9f;
+      --red: #b34b37;
+      --shadow: 0 16px 42px rgba(28, 37, 30, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, rgba(31, 122, 77, 0.08), transparent 320px),
+        var(--surface);
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--green-dark);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 44px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 14px;
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    h1 {
+      max-width: 840px;
+      margin: 0;
+      font-size: clamp(38px, 6vw, 72px);
+      line-height: 0.96;
+      letter-spacing: 0;
+    }
+
+    .lede {
+      max-width: 780px;
+      margin: 22px 0 0;
+      color: #3d473f;
+      font-size: 19px;
+      line-height: 1.55;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .meta li {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    main {
+      padding: 28px 0 64px;
+    }
+
+    section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 25px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 12px;
+      font-size: 17px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      color: #39443d;
+      line-height: 1.6;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.28fr);
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 20px;
+    }
+
+    .note {
+      border-left: 4px solid var(--gold);
+      padding: 12px 0 12px 14px;
+      color: #504434;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .kpi {
+      min-height: 132px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .kpi strong {
+      display: block;
+      color: var(--green-dark);
+      font-size: 40px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .kpi span {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .source-map {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .source-step {
+      position: relative;
+      min-height: 130px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--panel);
+    }
+
+    .source-step b {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 14px;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .source-step span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .bars {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 160px minmax(140px, 1fr) 44px;
+      gap: 12px;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .bar-label {
+      color: #2d3630;
+      overflow-wrap: anywhere;
+    }
+
+    .bar-track {
+      height: 14px;
+      border-radius: 999px;
+      background: #e7ebe5;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--green), var(--blue));
+    }
+
+    .bar-value {
+      color: var(--muted);
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .chart-wrap {
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .coverage-chart {
+      display: grid;
+      grid-template-columns: repeat(11, minmax(72px, 1fr));
+      gap: 10px;
+      align-items: end;
+      min-height: 250px;
+      min-width: 820px;
+      padding: 8px 0 0;
+    }
+
+    .stack {
+      display: grid;
+      gap: 8px;
+      align-items: end;
+      text-align: center;
+    }
+
+    .stack-bars {
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      height: 180px;
+      gap: 4px;
+    }
+
+    .stack-bars i {
+      display: block;
+      width: 22px;
+      min-height: 2px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .players-bar {
+      background: var(--green);
+    }
+
+    .teams-bar {
+      background: var(--gold);
+    }
+
+    .stack-label {
+      color: #415047;
+      font-size: 12px;
+      line-height: 1.25;
+      min-height: 30px;
+    }
+
+    .legend {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend i {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: #37443b;
+      background: #eef3ed;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    td.num,
+    th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    tbody tr:hover {
+      background: #fafbf8;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .table-scroll table {
+      min-width: 760px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 4px 8px;
+      background: #eaf2ed;
+      color: var(--green-dark);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .recommendations {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .rec {
+      border-top: 4px solid var(--green);
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .rec:nth-child(2) {
+      border-top-color: var(--blue);
+    }
+
+    .rec:nth-child(3) {
+      border-top-color: var(--gold);
+    }
+
+    .rec p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+      .section-head,
+      .grid-2,
+      .source-map,
+      .recommendations {
+        grid-template-columns: 1fr;
+      }
+
+      .kpis {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .wrap {
+        width: min(100% - 28px, 1180px);
+      }
+
+      header {
+        padding-top: 30px;
+      }
+
+      .kpis {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+
+      .bar-value {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Golfstat Junior Golf Analysis</p>
+      <h1>Turning public junior golf results into a repeatable scouting dataset.</h1>
+      <p class="lede">
+        This report summarizes the first working data pipeline for Golfstat's Junior Golf and high-school leaderboard coverage:
+        source discovery, raw snapshots, parsed event records, current leaderboards, and analysis-ready CSV outputs.
+      </p>
+      <ul class="meta" aria-label="Report metadata">
+        <li>Generated June 4, 2026</li>
+        <li>Source: Golfstat homepage and Junior event list</li>
+        <li>Repo: golf-data-analysis</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Executive Summary</h2>
+            <p>
+              The project now has a reproducible path from Golfstat public pages to structured datasets.
+              The Junior Golf section is broad enough for trend tracking: 172 archive events were parsed across
+              2002-2025, while the current homepage exposure covers 11 active tournament IDs with player and
+              team leaderboards where available.
+            </p>
+          </div>
+          <p class="note">
+            Recommended use: keep the repository private for stakeholder review because the dataset contains
+            junior-player names and scores, even though the source pages are public.
+          </p>
+        </div>
+
+        <div class="kpis" aria-label="Key metrics">
+          <div class="kpi">
+            <strong>172</strong>
+            <span>Junior archive records parsed from Golfstat event-list pages.</span>
+          </div>
+          <div class="kpi">
+            <strong>11</strong>
+            <span>Current Junior or high-school tournament IDs exposed on the homepage.</span>
+          </div>
+          <div class="kpi">
+            <strong>592</strong>
+            <span>Current full player leaderboard rows in structured CSV form.</span>
+          </div>
+          <div class="kpi">
+            <strong>71</strong>
+            <span>Current full team leaderboard rows captured for team events.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Data Pipeline</h2>
+            <p>
+              The pipeline preserves source evidence first, then derives analysis tables. This makes the work
+              auditable: each CSV points back to source HTML snapshots under <code>raw/</code>.
+            </p>
+          </div>
+          <p class="note">
+            The current scripts are intentionally simple Python parsers so the analysis can be rebuilt and reviewed
+            without a database or external service.
+          </p>
+        </div>
+
+        <div class="source-map" aria-label="Pipeline steps">
+          <div class="source-step">
+            <b>1</b>
+            <h3>Discover</h3>
+            <span>Read Golfstat homepage miniboard links and Junior Golf event-list pages.</span>
+          </div>
+          <div class="source-step">
+            <b>2</b>
+            <h3>Snapshot</h3>
+            <span>Store raw HTML pages for event lists, miniboards, player boards, and team boards.</span>
+          </div>
+          <div class="source-step">
+            <b>3</b>
+            <h3>Parse</h3>
+            <span>Convert source pages into CSVs for archive events, homepage boards, leaders, and full results.</span>
+          </div>
+          <div class="source-step">
+            <b>4</b>
+            <h3>Analyze</h3>
+            <span>Generate Markdown and HTML reports that surface coverage, leaders, caveats, and next steps.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid-2">
+          <div class="panel">
+            <h2>Archive Shape</h2>
+            <p>The archive is long-running, but concentrated in a few recurring event families.</p>
+            <div class="bars" style="margin-top: 18px">
+              <div class="bar-row">
+                <span class="bar-label">Other</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 100%"></span></span>
+                <span class="bar-value">131</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Junior Orange Bowl</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 12.2%"></span></span>
+                <span class="bar-value">16</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">The Elite Invitational</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 6.9%"></span></span>
+                <span class="bar-value">9</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">WIAA</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 6.1%"></span></span>
+                <span class="bar-value">8</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Dustin Johnson World Junior</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 2.3%"></span></span>
+                <span class="bar-value">3</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Toyota Junior World Cup</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 2.3%"></span></span>
+                <span class="bar-value">3</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Sage Valley</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 1.5%"></span></span>
+                <span class="bar-value">2</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2>Current Coverage</h2>
+            <p>Homepage Junior and high-school boards currently cover boys, girls, player, and team views.</p>
+            <div class="chart-wrap" aria-label="Coverage chart">
+              <div class="coverage-chart">
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 135px"></i><i class="teams-bar" style="height: 21px"></i></div>
+                  <span class="stack-label">WIAA Girls D1</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 68px"></i><i class="teams-bar" style="height: 11px"></i></div>
+                  <span class="stack-label">WIAA Girls D2</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 114px"></i><i class="teams-bar" style="height: 2px"></i></div>
+                  <span class="stack-label">Elite Boys</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 73px"></i><i class="teams-bar" style="height: 2px"></i></div>
+                  <span class="stack-label">Elite Girls</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 180px"></i><i class="teams-bar" style="height: 28px"></i></div>
+                  <span class="stack-label">WIAA Boys D1</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 90px"></i><i class="teams-bar" style="height: 14px"></i></div>
+                  <span class="stack-label">WIAA Boys D2</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 90px"></i><i class="teams-bar" style="height: 14px"></i></div>
+                  <span class="stack-label">WIAA Boys D3</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 62px"></i><i class="teams-bar" style="height: 21px"></i></div>
+                  <span class="stack-label">Toyota Boys</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 47px"></i><i class="teams-bar" style="height: 16px"></i></div>
+                  <span class="stack-label">Toyota Girls</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 109px"></i><i class="teams-bar" style="height: 2px"></i></div>
+                  <span class="stack-label">Elite Boys 2025</span>
+                </div>
+                <div class="stack">
+                  <div class="stack-bars"><i class="players-bar" style="height: 57px"></i><i class="teams-bar" style="height: 2px"></i></div>
+                  <span class="stack-label">Elite Girls 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="legend">
+              <span><i class="players-bar"></i> Player rows</span>
+              <span><i class="teams-bar"></i> Team rows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Current Tournament Coverage</h2>
+            <p>
+              These are the current Junior and high-school tournaments parsed from the Golfstat homepage boards,
+              with full leaderboards linked when available.
+            </p>
+          </div>
+          <p class="note">
+            Player-only events are still useful for scouting and ranking movement, while events with team rows can
+            support school, country, or program-level comparison.
+          </p>
+        </div>
+
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Tournament ID</th>
+                <th>Event</th>
+                <th>Segment</th>
+                <th class="num">Player rows</th>
+                <th class="num">Team rows</th>
+                <th>Leaderboard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="num">29296</td>
+                <td>WIAA State Girls D1 Golf Champion</td>
+                <td><span class="pill">HS Girls</span></td>
+                <td class="num">78</td>
+                <td class="num">12</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29296">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29297</td>
+                <td>WIAA State Girls D2 Golf Champion</td>
+                <td><span class="pill">HS Girls</span></td>
+                <td class="num">39</td>
+                <td class="num">6</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29297">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29330</td>
+                <td>The Elite Invitational</td>
+                <td><span class="pill">Junior Boys</span></td>
+                <td class="num">66</td>
+                <td class="num">0</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29330">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29331</td>
+                <td>The Elite Invitational</td>
+                <td><span class="pill">Junior Girls</span></td>
+                <td class="num">42</td>
+                <td class="num">0</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29331">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29417</td>
+                <td>2025 WIAA Boys Championship</td>
+                <td><span class="pill">HS Boys D1</span></td>
+                <td class="num">104</td>
+                <td class="num">16</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29417">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29418</td>
+                <td>2025 WIAA Boys Championship</td>
+                <td><span class="pill">HS Boys D2</span></td>
+                <td class="num">52</td>
+                <td class="num">8</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29418">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29422</td>
+                <td>2025 WIAA Boys Championship</td>
+                <td><span class="pill">HS Boys D3</span></td>
+                <td class="num">52</td>
+                <td class="num">8</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29422">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29433</td>
+                <td>2025 Toyota Junior Golf World Cup</td>
+                <td><span class="pill">Junior Boys</span></td>
+                <td class="num">36</td>
+                <td class="num">12</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29433">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29434</td>
+                <td>2025 Toyota Junior Golf World Cup</td>
+                <td><span class="pill">Junior Girls</span></td>
+                <td class="num">27</td>
+                <td class="num">9</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29434">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29467</td>
+                <td>The Elite Invitational Boys</td>
+                <td><span class="pill">Junior Boys</span></td>
+                <td class="num">63</td>
+                <td class="num">0</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29467">Player board</a></td>
+              </tr>
+              <tr>
+                <td class="num">29468</td>
+                <td>The Elite Invitational Girls</td>
+                <td><span class="pill">Junior Girls</span></td>
+                <td class="num">33</td>
+                <td class="num">0</td>
+                <td><a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29468">Player board</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid-2">
+          <div class="panel">
+            <h2>Representative Leaders</h2>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Event</th>
+                    <th>Board</th>
+                    <th>Leader</th>
+                    <th class="num">Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>WIAA Girls D1</td><td>Player</td><td>McKenna Nelson</td><td class="num">-6</td></tr>
+                  <tr><td>WIAA Girls D2</td><td>Player</td><td>Belle Kongshaug</td><td class="num">+9</td></tr>
+                  <tr><td>The Elite Invitational</td><td>Player</td><td>Miles Russell</td><td class="num">-7</td></tr>
+                  <tr><td>The Elite Invitational</td><td>Player</td><td>Clara Ding</td><td class="num">-6</td></tr>
+                  <tr><td>WIAA Boys D1</td><td>Team</td><td>Marquette</td><td class="num">+8</td></tr>
+                  <tr><td>Toyota Junior Boys</td><td>Team</td><td>Japan</td><td class="num">-32</td></tr>
+                  <tr><td>Toyota Junior Girls</td><td>Team</td><td>Thailand</td><td class="num">-24</td></tr>
+                  <tr><td>Elite Invitational Boys</td><td>Player</td><td>Grant DeLorenzo</td><td class="num">-2</td></tr>
+                  <tr><td>Elite Invitational Girls</td><td>Player</td><td>Asterisk Talley</td><td class="num">-5</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2>Quality Notes</h2>
+            <p>
+              The parsed CSVs preserve both the displayed total and the visible round-score sum. One row currently
+              has a mismatch between those values, which appears to come from the source page itself rather than
+              the parser. This is useful: the dataset can flag scoring anomalies without silently correcting them.
+            </p>
+            <div class="bars" style="margin-top: 18px">
+              <div class="bar-row">
+                <span class="bar-label">Rows checked</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 100%"></span></span>
+                <span class="bar-value">592</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Visible total mismatch</span>
+                <span class="bar-track"><span class="bar-fill" style="width: 0.2%; background: var(--red)"></span></span>
+                <span class="bar-value">1</span>
+              </div>
+            </div>
+            <p style="margin-top: 18px">
+              The next quality step is to add automated checks for duplicate player names within an event, missing
+              round values, stale homepage links, and player/team board availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Recommended Next Moves</h2>
+        <div class="recommendations">
+          <div class="rec">
+            <h3>Weekly refresh</h3>
+            <p>Run the scraper weekly and diff current boards to identify new events, changing leaders, and stale tournaments.</p>
+          </div>
+          <div class="rec">
+            <h3>Recruiting view</h3>
+            <p>Create player profiles by event history, scoring average, finish position, gender segment, and event family.</p>
+          </div>
+          <div class="rec">
+            <h3>Boss-ready export</h3>
+            <p>Keep this HTML page as the living report and generate short slide decks only for specific meetings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Source artifacts: <code>raw/</code>, <code>data/</code>, <code>reports/junior_golf_deep_dive_2026-06-04.md</code>, and <code>scripts/build_junior_golf_deep_dive.py</code>.
+    </div>
+  </footer>
+</body>
+</html>

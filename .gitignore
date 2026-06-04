@@ -6,9 +6,13 @@
 # Obsidian local workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.obsidian/graph.json
 .obsidian/cache/
 .obsidian/trash/
 .trash/
+Untitled.base
 
 # Obsidian plugin local data that may contain machine-specific settings
 .obsidian/plugins/obsidian-git/data.json

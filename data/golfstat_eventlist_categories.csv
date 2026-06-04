@@ -1,0 +1,14 @@
+type_code,category,url
+K,NAIA Golf,https://score.golfstat.com/eventlist.cfm?type=K
+J,NCAA Golf,https://score.golfstat.com/eventlist.cfm?type=J
+H,AJGA,https://score.golfstat.com/eventlist.cfm?type=H
+A,College Men,https://score.golfstat.com/eventlist.cfm?type=A
+F,NAIA Men,https://score.golfstat.com/eventlist.cfm?type=F
+P,Junior College Men,https://score.golfstat.com/eventlist.cfm?type=P
+L,College Golf,https://score.golfstat.com/eventlist.cfm?type=L
+Q,Junior Collete Women,https://score.golfstat.com/eventlist.cfm?type=Q
+G,NAIA Women,https://score.golfstat.com/eventlist.cfm?type=G
+C,Independent,https://score.golfstat.com/eventlist.cfm?type=C
+M,International,https://score.golfstat.com/eventlist.cfm?type=M
+B,College Women,https://score.golfstat.com/eventlist.cfm?type=B
+I,Junior Golf,https://score.golfstat.com/eventlist.cfm?type=I

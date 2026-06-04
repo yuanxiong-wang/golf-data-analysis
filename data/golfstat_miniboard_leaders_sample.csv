@@ -1,0 +1,21 @@
+tournament_id,event,dates,board_type,label,position,name,score,source_file
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T1,Brody Leid,-18,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T1,Nixon Lauritzen,-18,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,3,Monte Chumchaivate,-12,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,4,Gavin O'Neill,-11,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,5,Trent Mierl,-10,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T6,Brody Knowlton,-9,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T6,Matt Diehl,-9,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T6,Josiah Tong,-9,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T9,Pieter Rossouw,-8,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,player,Individual Leaders,T9,Haden Maxwell,-8,raw/miniboards/pleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,1,Grand Canyon,-52,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,2,Missouri,-38,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,3,Rhode Island,-27,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,4,Nevada,-26,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,5,"Wyoming, U. of",-25,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,T6,William & Mary,-21,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,T6,Mercer,-21,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,8,Tennessee Tech,-13,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,9,North Alabama,-1,raw/miniboards/tleaderboard_29481.html
+29481,Golfweek NGI Men,May 22 - May 24 2026,team,Team Leaders,10,Augusta,+3,raw/miniboards/tleaderboard_29481.html

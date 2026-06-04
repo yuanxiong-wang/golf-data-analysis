@@ -1,0 +1,398 @@
+tournament_id,tournament_name,gender,board_type,miniboard_url,results_url
+29481,Golfweek NGI Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29481.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29481
+29481,Golfweek NGI Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29481.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29481
+29480,Golfweek NGI Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29480.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29480
+29480,Golfweek NGI Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29480.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29480
+29479,Stampede at the Creek,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29479.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29479
+29479,Stampede at the Creek,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29479.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29479
+29470,53rd Camp Lejeune Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29470.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29470
+29470,53rd Camp Lejeune Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29470.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29470
+29471,4th Camp Lejeune Women's Intercollegiate,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29471.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29471
+29471,4th Camp Lejeune Women's Intercollegiate,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29471.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29471
+29477,Golfweek/Stifel Mens Spring Challenge,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29477.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29477
+29477,Golfweek/Stifel Mens Spring Challenge,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29477.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29477
+29478,Golfweek/Stifel Womens Spring Challenge,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29478.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29478
+29478,Golfweek/Stifel Womens Spring Challenge,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29478.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29478
+29428,2026 Palm Valley Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29428.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29428
+29428,2026 Palm Valley Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29428.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29428
+29445,YSU Spring Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29445.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29445
+29445,YSU Spring Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29445.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29445
+29427,2026 Women's Palm Valley Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29427.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29427
+29427,2026 Women's Palm Valley Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29427.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29427
+29476,2026 Lynn Invite @ Boca Woods,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29476.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29476
+29476,2026 Lynn Invite @ Boca Woods,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29476.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29476
+29472,The Silicon Valley Showcase,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29472.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29472
+29472,The Silicon Valley Showcase,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29472.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29472
+29474,The Florida State Match Up,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29474.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29474
+29474,The Florida State Match Up,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29474.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29474
+29475,The Seminole Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29475.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29475
+29475,The Seminole Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29475.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29475
+29469,Bruin Wave Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29469.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29469
+29469,Bruin Wave Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29469.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29469
+29449,RJGA Stockton Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29449.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29449
+29449,RJGA Stockton Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29449.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29449
+29467,The Elite Invitational Boys,JUNIOR BOYS,player,https://score.golfstat.com/miniboards/pleaderboard_29467.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29467
+29468,The Elite Invitational Girls,JUNIOR GIRLS,player,https://score.golfstat.com/miniboards/pleaderboard_29468.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29468
+29450,The Williams Cup,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29450.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29450
+29450,The Williams Cup,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29450.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29450
+29462,Fripp Island to Bermuda Invite,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29462.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29462
+29462,Fripp Island to Bermuda Invite,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29462.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29462
+29464,Evie Odom Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29464.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29464
+29464,Evie Odom Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29464.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29464
+29458,Big O Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29458.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29458
+29458,Big O Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29458.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29458
+29460,Golfweek October Classic - Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29460.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29460
+29460,Golfweek October Classic - Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29460.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29460
+29461,Golfweek October Classic - Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29461.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29461
+29461,Golfweek October Classic - Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29461.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29461
+29465,2025 USCAA Men's Golf National Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29465.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29465
+29465,2025 USCAA Men's Golf National Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29465.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29465
+29466,2025 USCAA Women' Golf National Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29466.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29466
+29459,Put Me In Coach Invitational,Independent,player,https://score.golfstat.com/miniboards/pleaderboard_29459.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29459
+29463,Put Me In Coach Invitational,Independent,player,https://score.golfstat.com/miniboards/pleaderboard_29463.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29463
+29457,National Preview,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29457.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29457
+29457,National Preview,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29457.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29457
+29424,DII Shootout at PGA Riviera Maya,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29424.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29424
+29424,DII Shootout at PGA Riviera Maya,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29424.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29424
+29446,17th Annual Gildas Club Laker Fall Invite,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29446.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29446
+29446,17th Annual Gildas Club Laker Fall Invite,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29446.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29446
+29456,Golfweek Red Sky Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29456.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29456
+29456,Golfweek Red Sky Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29456.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29456
+29425,The Poss High Country Shootout,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29425.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29425
+29425,The Poss High Country Shootout,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29425.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29425
+29439,2025 Women's Poss High Country Shootout,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29439.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29439
+29439,2025 Women's Poss High Country Shootout,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29439.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29439
+29444,YSU Roseann Schwartz Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29444.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29444
+29444,YSU Roseann Schwartz Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29444.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29444
+29455,OFCC Fighting Illini Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29455.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29455
+29455,OFCC Fighting Illini Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29455.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29455
+29423,RJGA Shootout at Estrella,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29423.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29423
+29423,RJGA Shootout at Estrella,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29423.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29423
+29447,GCU Gauntlet,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29447.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29447
+29453,Golfweek Fall Challenge - Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29453.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29453
+29453,Golfweek Fall Challenge - Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29453.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29453
+29454,Golfweek Fall Challenge - Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29454.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29454
+29454,Golfweek Fall Challenge - Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29454.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29454
+29452,Myrtle Beach Golf Trips Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29452.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29452
+29452,Myrtle Beach Golf Trips Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29452.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29452
+29443,YSU Kickoff,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29443.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29443
+29443,YSU Kickoff,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29443.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29443
+29442,Golfweek Hoosier Amateur - Men,Hoosier Amateur - Men,player,https://score.golfstat.com/miniboards/pleaderboard_29442.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29442
+29441,Golfweek Hoosier Amateur - Women,Hoosier Amateur - Women,player,https://score.golfstat.com/miniboards/pleaderboard_29441.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29441
+29433,Toyota Junior - Boys,JUNIOR BOYS,team,https://score.golfstat.com/miniboards/tleaderboard_29433.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29433
+29433,Toyota Junior - Boys,JUNIOR BOYS,player,https://score.golfstat.com/miniboards/pleaderboard_29433.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29433
+29434,Toyota Junior - Girls,JUNIOR GIRLS,team,https://score.golfstat.com/miniboards/tleaderboard_29434.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29434
+29434,Toyota Junior - Girls,JUNIOR GIRLS,player,https://score.golfstat.com/miniboards/pleaderboard_29434.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29434
+29430,Golfweek NGI Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29430.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29430
+29430,Golfweek NGI Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29430.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29430
+29429,Golfweek NGI Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29429.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29429
+29429,Golfweek NGI Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29429.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29429
+29359,The 2025 ACC Men's Championship - Matchplay,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29359.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29359
+29359,2025 WAC Men's Golf Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29359.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29359
+29420,2025 GLVC Women's Golf Championship - Medal/Match,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29420.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29420
+29420,SAA Conference Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29420.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29420
+29421,SAA Conference Championship,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29421.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29421
+29421,SAA Conference Championship,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29421.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29421
+29396,The 2025 ACC Men's Championship - Stroke,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29396.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29396
+29396,The 2025 ACC Men's Championship - Stroke,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29396.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29396
+29413,2025 GLVC Women's Golf Championship - Stroke Play,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29413.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29413
+29413,2025 GLVC Women's Golf Championship - Stroke Play,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29413.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29413
+29403,2025 SEC Men's Championship - Stroke,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29403.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29403
+29403,2025 SEC Men's Championship - Stroke,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29403.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29403
+29416,2025 MIAA Men's Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29416.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29416
+29416,2025 MIAA Men's Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29416.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29416
+29412,2025 GLVC Men's Golf Championship - Medal/Match,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29412.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29412
+29412,2025 GLVC Men's Golf Championship - Stroke Play,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29412.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29412
+29372,2025 Great Northwest Athletic Conference Men's Golf Championships,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29372.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29372
+29372,2025 Great Northwest Athletic Conference Men's Golf Championships,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29372.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29372
+29373,2025 Great Northwest Athletic Conference Women's Golf Championships,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29373.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29373
+29373,2025 Great Northwest Athletic Conference Women's Golf Championships,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29373.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29373
+29406,Boilermaker Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29406.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29406
+29406,Boilermaker Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29406.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29406
+29407,Boilermaker Indie,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29407.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29407
+29375,2025 PBC Men's Golf Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29375.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29375
+29375,2025 PBC Men's Golf Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29375.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29375
+29376,2025 PBC Women's Golf Championship,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29376.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29376
+29376,2025 PBC Women's Golf Championship,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29376.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29376
+29394,The 2025 ACC Womens Championship - Matchplay,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29394.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29394
+29394,The 2025 ACC Women's Championship - Stroke,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29394.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29394
+29401,2025 SEC Womens Championship - Match Play,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29401.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29401
+29401,2025 SEC Women's Championship - Stroke,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29401.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29401
+29358,2025 WAC Women's Golf Championship,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29358.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29358
+29358,2025 WAC Women's Golf Championship,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29358.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29358
+29399,Hawkeye Invite at Finkbine Golf Course,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29399.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29399
+29399,Hawkeye Invite at Finkbine Golf Course,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29399.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29399
+29400,Tar Heel Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29400.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29400
+29400,Tar Heel Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29400.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29400
+29398,Calusa Cup at Calusa Pines,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29398.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29398
+29398,Calusa Cup at Calusa Pines,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29398.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29398
+29417,WIAA Division 1,HS BOYS,team,https://score.golfstat.com/miniboards/tleaderboard_29417.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29417
+29417,WIAA Division 1,HS BOYS,player,https://score.golfstat.com/miniboards/pleaderboard_29417.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29417
+29418,WIAA Division 2,HS BOYS,team,https://score.golfstat.com/miniboards/tleaderboard_29418.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29418
+29418,WIAA Division 2,HS BOYS,player,https://score.golfstat.com/miniboards/pleaderboard_29418.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29418
+29422,WIAA Division 3,HS BOYS,team,https://score.golfstat.com/miniboards/tleaderboard_29422.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29422
+29422,WIAA Division 3,HS BOYS,player,https://score.golfstat.com/miniboards/pleaderboard_29422.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29422
+29298,RJGA Men's Palm Valley Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29298.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29298
+29298,RJGA Men's Palm Valley Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29298.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29298
+29391,Capital City Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29391.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29391
+29391,Capital City Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29391.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29391
+29387,Stampede at the Creek,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29387.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29387
+29387,Stampede at the Creek,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29387.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29387
+29389,Boilermaker Spring Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29389.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29389
+29389,Boilermaker Spring Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29389.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29389
+29341,YSU Spring Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29341.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29341
+29341,YSU Spring Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29341.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29341
+29381,Augusta Haskins Award Invite,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29381.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29381
+29381,Augusta Haskins Award Invite,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29381.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29381
+29347,52nd Annual Camp Lejeune Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29347.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29347
+29347,52nd Annual Camp Lejeune Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29347.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29347
+29346,3rd Annual Camp Lejeune Intercollegiate,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29346.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29346
+29346,3rd Annual Camp Lejeune Intercollegiate,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29346.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29346
+29379,Mason Rudolph Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29379.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29379
+29379,Mason Rudolph Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29379.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29379
+29299,RJGA Palm Valley Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29299.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29299
+29299,RJGA Palm Valley Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29299.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29299
+29349,Wyoming Cowgirl Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29349.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29349
+29349,Wyoming Cowgirl Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29349.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29349
+29393,Golfweek Stifel Men Spring Challenge,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29393.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29393
+29393,Golfweek Stifel Men Spring Challenge,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29393.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29393
+29392,Golfweek Stifel Women Spring Challenge,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29392.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29392
+29392,Golfweek Stifel Women Spring Challenge,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29392.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29392
+29354,Wyoming Cowboy Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29354.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29354
+29354,Wyoming Cowboy Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29354.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29354
+29385,Lynn Invite 2025,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29385.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29385
+29385,Lynn Invite 2025,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29385.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29385
+29383,UNCW Seahawk Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29383.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29383
+29383,UNCW Seahawk Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29383.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29383
+29378,Silicon Valley Showcase,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29378.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29378
+29378,Silicon Valley Showcase,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29378.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29378
+29386,The Patsy Rendleman Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29386.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29386
+29386,The Patsy Rendleman Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29386.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29386
+29368,45th Schenkel Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29368.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29368
+29368,45th Schenkel Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29368.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29368
+29339,Florida State Match Up,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29339.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29339
+29339,Florida State Match Up,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29339.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29339
+29344,Jekyll Island Collegiate Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29344.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29344
+29344,Jekyll Island Collegiate Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29344.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29344
+29345,Jekyll Island Collegiate Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29345.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29345
+29345,Jekyll Island Collegiate Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29345.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29345
+29377,General James Hackler Championship Presented by Carolina Wealth Advisors,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29377.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29377
+29377,General James Hackler Championship Presented by Carolina Wealth Advisors,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29377.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29377
+29382,Old Barnwell Derby Matchplay,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29382.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29382
+29382,Nevel Meade Collegiate,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29382.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29382
+29380,Valspar Augusta Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29380.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29380
+29380,Valspar Augusta Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29380.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29380
+29337,Seminole Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29337.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29337
+29337,Seminole Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29337.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29337
+29369,Fujikura Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29369.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29369
+29369,Fujikura Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29369.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29369
+29371,Space Coast Collegiate Championshipl,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29371.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29371
+29371,Space Coast Collegiate Championship,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29371.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29371
+29355,Gators Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29355.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29355
+29355,Gators Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29355.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29355
+29361,The Cabo Collegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29361.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29361
+29361,The Cabo Collegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29361.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29361
+29353,Wyoming Desert Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29353.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29353
+29353,Wyoming Desert Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29353.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29353
+29367,Bruin Wave Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29367.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29367
+29367,Bruin Wave Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29367.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29367
+29338,Watersound Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29338.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29338
+29338,Watersound Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29338.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29338
+29275,Spartan Suncoast Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29275.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29275
+29275,Spartan Suncoast Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29275.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29275
+29350,Gators Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29350.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29350
+29350,Gators Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29350.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29350
+29357,Puerto Rico Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29357.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29357
+29357,Puerto Rico Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29357.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29357
+29360,CSUSM Fujikura Mens Golf Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29360.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29360
+29360,CSUSM Fujikura Mens Golf Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29360.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29360
+29352,UCR Soboba Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29352.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29352
+29352,UCR Soboba Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29352.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29352
+29348,Puerto Rico Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29348.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29348
+29348,Puerto Rico Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29348.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29348
+29257,Match in the Desert Superstition Mountain Golf,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29257.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29257
+29257,Match in the Desert Superstition Mountain Golf,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29257.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29257
+29330,The Elite Invitational,Junior Boys,player,https://score.golfstat.com/miniboards/pleaderboard_29330.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29330
+29331,The Elite Invitational,Junior Girls,player,https://score.golfstat.com/miniboards/pleaderboard_29331.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29331
+29332,The Preserve Golf Club Collegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29332.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29332
+29332,The Preserve Golf Club Collegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29332.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29332
+29313,2024 Hurricane Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29313.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29313
+29313,2024 Hurricane Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29313.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29313
+29335,The Citrus Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29335.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29335
+29335,The Citrus Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29335.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29335
+29328,Tall Timbers Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29328.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29328
+29328,Tall Timbers Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29328.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29328
+29327,Tall Timbers Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29327.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29327
+29327,Tall Timbers Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29327.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29327
+29322,Landfall Tradition,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29322.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29322
+29322,Landfall Tradition,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29322.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29322
+29309,The Williams Cup presented by STITCH Golf,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29309.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29309
+29309,The Williams Cup presented by STITCH Golf,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29309.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29309
+29329,ODU/OBX Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29329.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29329
+29329,ODU/OBX Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29329.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29329
+29317,Dennis Rose Invitational - Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29317.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29317
+29317,Dennis Rose Invitational - Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29317.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29317
+29316,Dennis Rose Invitational - Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29316.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29316
+29316,Dennis Rose Invitational - Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29316.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29316
+29333,UBC Thunderbirds Men's Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29333.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29333
+29333,UBC Thunderbirds Men's Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29333.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29333
+29334,Gail Moore Intercollegiate,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29334.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29334
+29334,Gail Moore Intercollegiate,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29334.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29334
+29319,Fallen Oak Collegiate Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29319.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29319
+29319,Fallen Oak Collegiate Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29319.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29319
+29294,Visit Stockton Pacific Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29294.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29294
+29294,Visit Stockton Pacific Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29294.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29294
+29321,Pinetree Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29321.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29321
+29321,Pinetree Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29321.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29321
+29282,Dale McNamara Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29282.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29282
+29282,Dale McNamara Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29282.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29282
+29324,Golfweek October Classic - Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29324.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29324
+29324,Golfweek October Classic - Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29324.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29324
+29323,Golfweek October Classic - Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29323.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29323
+29323,Golfweek October Classic - Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29323.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29323
+29315,2024 Herb Wimberly Memorial,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29315.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29315
+29315,2024 Herb Wimberly Memorial,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29315.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29315
+29326,Otter Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29326.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29326
+29326,Otter Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29326.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29326
+29235,Fall Yellowjacket Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29235.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29235
+29235,Fall Yellowjacket Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29235.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29235
+29236,Fall Yellowjacket Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29236.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29236
+29236,Fall Yellowjacket Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29236.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29236
+29307,2024 USCAA Men's Golf National Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29307.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29307
+29307,2024 USCAA Men's Golf National Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29307.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29307
+29308,2024 USCAA Women' Golf National Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29308.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29308
+29308,2024 USCAA Women' Golf National Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29308.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29308
+29228,St Andrews Fall Classic Field,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29228.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29228
+29228,St Andrews Fall Classic Field,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29228.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29228
+29310,Ruth's Chris Tar Heel Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29310.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29310
+29310,Ruth's Chris Tar Heel Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29310.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29310
+29314,Big 12 Conference Match Play Tournament,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29314.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29314
+29314,The Grier Jones Shocker Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29314.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29314
+29256,Marilynn Smith Sunflower Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29256.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29256
+29256,Marilynn Smith Sunflower Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29256.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29256
+29229,2024 Alister Mackenzie Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29229.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29229
+29229,2024 Alister Mackenzie Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29229.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29229
+29311,Oregon State Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29311.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29311
+29311,Oregon State Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29311.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29311
+29277,Cullan Brown Collegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29277.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29277
+29277,Cullan Brown Collegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29277.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29277
+29234,Briarwood Shootout,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29234.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29234
+29234,Briarwood Shootout,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29234.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29234
+29233,Briarwood Shootout,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29233.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29233
+29233,Briarwood Shootout,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29233.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29233
+29300,Evie Odom Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29300.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29300
+29300,Evie Odom Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29300.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29300
+29268,UConn Invitational at GreatHorse,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29268.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29268
+29268,UConn Invitational at GreatHorse,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29268.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29268
+29293,Ben Hogan Collegiate Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29293.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29293
+29293,Ben Hogan Collegiate Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29293.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29293
+29289,Butler Fall Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29289.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29289
+29289,Butler Fall Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29289.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29289
+29295,Mark Simpson Colorado Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29295.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29295
+29295,Mark Simpson Colorado Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29295.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29295
+29286,Bubba Barnett Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29286.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29286
+29286,Bubba Barnett Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29286.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29286
+29292,Big O Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29292.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29292
+29292,Big O Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29292.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29292
+29270,2024 WWU Men's Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29270.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29270
+29270,2024 WWU Men's Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29270.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29270
+29264,RJGA South Central Shootout,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29264.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29264
+29264,RJGA South Central Shootout,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29264.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29264
+29303,Beartooth Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29303.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29303
+29303,Beartooth Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29303.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29303
+29304,Beartooth Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29304.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29304
+29304,Beartooth Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29304.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29304
+29284,Golfweek Red Sky Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29284.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29284
+29284,Golfweek Red Sky Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29284.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29284
+29244,The Tindall,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29244.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29244
+29244,The Tindall,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29244.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29244
+29279,Cavalier Regional Preview,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29279.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29279
+29279,Cavalier Regional Preview,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29279.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29279
+29280,Remax Prime Properties Bearkat Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29280.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29280
+29280,Remax Prime Properties Bearkat Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29280.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29280
+29287,2024 Zach Johnson Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29287.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29287
+29287,2024 Zach Johnson Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29287.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29287
+29248,2024 True North Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29248.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29248
+29248,2024 True North Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29248.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29248
+29249,2024 True North Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29249.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29249
+29249,2024 True North Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29249.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29249
+29278,The National Preview,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29278.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29278
+29278,The National Preview,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29278.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29278
+29267,Ashland Womens Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29267.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29267
+29267,Ashland Womens Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29267.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29267
+29285,Black Hills State Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29285.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29285
+29285,Black Hills State Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29285.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29285
+29281,Valero Texas Collegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29281.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29281
+29281,Valero Texas Collegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29281.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29281
+29276,Rod Myers Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29276.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29276
+29276,Rod Myers Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29276.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29276
+29242,Purdue Fall Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29242.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29242
+29242,Purdue Fall Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29242.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29242
+29274,The Mary Fossum Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29274.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29274
+29274,The Mary Fossum Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29274.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29274
+29266,Purdue Fall Individual,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29266.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29266
+29227,2024 Women's Mason Rudolph Championship,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29227.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29227
+29227,2024 Women's Mason Rudolph Championship,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29227.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29227
+29254,OFCC/Fighting Illini Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29254.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29254
+29254,OFCC/Fighting Illini Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29254.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29254
+29283,William H. Tucker Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29283.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29283
+29283,William H. Tucker Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29283.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29283
+29271,Brittany Kelly Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29271.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29271
+29271,Brittany Kelly Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29271.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29271
+29224,Hardrocker Fall Invite,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29224.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29224
+29224,Hardrocker Fall Invite,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29224.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29224
+29223,Hardrocker Fall Invite,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29223.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29223
+29223,Hardrocker Fall Invite,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29223.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29223
+29259,RJGA Shootout at Estrella,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29259.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29259
+29259,RJGA Shootout at Estrella,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29259.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29259
+29250,SCAC Preview Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29250.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29250
+29250,SCAC Preview Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29250.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29250
+29255,SCAC Preview Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29255.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29255
+29255,SCAC Preview Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29255.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29255
+29269,Put Me In Coach Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29269.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29269
+29251,The Cardinal Cup,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29251.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29251
+29251,The Cardinal Cup,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29251.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29251
+29237,Forest Hills Fall Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29237.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29237
+29237,Forest Hills Fall Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29237.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29237
+29238,HCAC Preview,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29238.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29238
+29238,HCAC Preview,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29238.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29238
+29263,IWU Fall Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29263.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29263
+29263,IWU Fall Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29263.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29263
+29260,Saint John's Fall Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29260.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29260
+29260,Saint John's Fall Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29260.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29260
+29261,WLC Fall Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29261.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29261
+29261,SWLC Fall Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29261.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29261
+29265,St. Kate's Fall Invite,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29265.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29265
+29265,St. Kate's Fall Invite,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29265.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29265
+29258,Annika International Presented by 3M,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29258.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29258
+29258,Annika International Presented by 3M,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29258.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29258
+29245,Golfweek Fall Challenge - Men,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29245.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29245
+29245,Golfweek Fall Challenge - Men,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29245.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29245
+29246,Golfweek Fall Challenge - Women,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29246.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29246
+29246,Golfweek Fall Challenge - Women,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29246.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29246
+29247,Myrtle Beach Golf Trip Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29247.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29247
+29247,Myrtle Beach Golf Trip Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29247.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29247
+29232,Southern Dunes Invitational Hosted by USC,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29232.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29232
+29232,Southern Dunes Invitational Hosted by USC,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29232.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29232
+29231,Branch Law,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29231.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29231
+29231,Branch Law,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29231.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29231
+29230,Inverness Intercollegiate,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29230.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29230
+29230,Inverness Intercollegiate,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29230.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29230
+29252,Bushnell Fall Invitational,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29252.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29252
+29252,Bushnell Fall Invitational,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29252.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29252
+29253,Bushnell Fall Invitational,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29253.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29253
+29253,Bushnell Fall Invitational,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29253.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29253
+29243,The Sahalee Players Championship,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29243.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29243
+29243,The Sahalee Players Championship,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29243.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29243
+29239,2024 Ladies Point Fall Invite,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29239.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29239
+29239,2024 Ladies Point Fall Invite,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29239.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29239
+29226,Boilermaker Classic,Women,team,https://score.golfstat.com/miniboards/tleaderboard_29226.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29226
+29226,Boilermaker Classic,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29226.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29226
+29225,Culver's Edgewood College Fall Classic,Men,team,https://score.golfstat.com/miniboards/tleaderboard_29225.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29225
+29225,Culver's Edgewood College Fall Classic,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29225.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29225
+29211,Golfweek Hoosier Women's Amateur,Women,player,https://score.golfstat.com/miniboards/pleaderboard_29211.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29211
+29212,Golfweek Hoosier Men's Amateur,Men,player,https://score.golfstat.com/miniboards/pleaderboard_29212.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29212
+29296,WIAA Division 1,HS GIRLS,team,https://score.golfstat.com/miniboards/tleaderboard_29296.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29296
+29296,WIAA Division 1,HS GIRLS,player,https://score.golfstat.com/miniboards/pleaderboard_29296.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29296
+29297,WIAA Division 2,HS GIRLS,team,https://score.golfstat.com/miniboards/tleaderboard_29297.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=team&tid=29297
+29297,WIAA Division 2,HS GIRLS,player,https://score.golfstat.com/miniboards/pleaderboard_29297.html,https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&tid=29297

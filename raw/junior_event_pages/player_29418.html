@@ -1,0 +1,2744 @@
+<!DOCTYPE HTML>
+
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/cf_scripts/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8585;
+_cf_flash_policy_port=1243;
+/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	var _cf_javascriptCallsPL=ColdFusion.AjaxProxy.init('/cfc/javascriptCallsPL.cfc','scorecard');
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecardsAllRounds=function(tid,pcid,returnJSON,showImage,bg,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecardsAllRounds","61907FABA8277DAB", {tid:tid,pcid:pcid,returnJSON:returnJSON,showImage:showImage,bg:bg,dsn:dsn});};
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecard=function(tid,rid,pcid,showImage,bg,handicap) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecard","61907FABA8277DAB", {tid:tid,rid:rid,pcid:pcid,showImage:showImage,bg:bg,handicap:handicap});};
+	_cf_javascriptCallsPL.prototype.getPlayerDetailXML=function(UID,PWD,RD,pc_id,tournament_id,handicap,showTeeTime,elements,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getPlayerDetailXML","61907FABA8277DAB", {UID:UID,PWD:PWD,RD:RD,pc_id:pc_id,tournament_id:tournament_id,handicap:handicap,showTeeTime:showTeeTime,elements:elements,dsn:dsn});};
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/cf_scripts/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8585;
+_cf_flash_policy_port=1243;
+/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	var _cf_javascriptCallsPL=ColdFusion.AjaxProxy.init('/cfc/javascriptCallsPL.cfc','scorecard');
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecardsAllRounds=function(tid,pcid,returnJSON,showImage,bg,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecardsAllRounds","61907FABA8277DAB", {tid:tid,pcid:pcid,returnJSON:returnJSON,showImage:showImage,bg:bg,dsn:dsn});};
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecard=function(tid,rid,pcid,showImage,bg,handicap) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecard","61907FABA8277DAB", {tid:tid,rid:rid,pcid:pcid,showImage:showImage,bg:bg,handicap:handicap});};
+	_cf_javascriptCallsPL.prototype.getPlayerDetailXML=function(UID,PWD,RD,pc_id,tournament_id,handicap,showTeeTime,elements,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getPlayerDetailXML","61907FABA8277DAB", {UID:UID,PWD:PWD,RD:RD,pc_id:pc_id,tournament_id:tournament_id,handicap:handicap,showTeeTime:showTeeTime,elements:elements,dsn:dsn});};
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/cf_scripts/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8585;
+_cf_flash_policy_port=1243;
+/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	var _cf_javascriptCallsPL=ColdFusion.AjaxProxy.init('/cfc/javascriptCallsPL.cfc','scorecard');
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecardsAllRounds=function(tid,pcid,returnJSON,showImage,bg,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecardsAllRounds","61907FABA8277DAB", {tid:tid,pcid:pcid,returnJSON:returnJSON,showImage:showImage,bg:bg,dsn:dsn});};
+	_cf_javascriptCallsPL.prototype.getEmbeddedScorecard=function(tid,rid,pcid,showImage,bg,handicap) { return ColdFusion.AjaxProxy.invoke(this, "getEmbeddedScorecard","61907FABA8277DAB", {tid:tid,rid:rid,pcid:pcid,showImage:showImage,bg:bg,handicap:handicap});};
+	_cf_javascriptCallsPL.prototype.getPlayerDetailXML=function(UID,PWD,RD,pc_id,tournament_id,handicap,showTeeTime,elements,dsn) { return ColdFusion.AjaxProxy.invoke(this, "getPlayerDetailXML","61907FABA8277DAB", {UID:UID,PWD:PWD,RD:RD,pc_id:pc_id,tournament_id:tournament_id,handicap:handicap,showTeeTime:showTeeTime,elements:elements,dsn:dsn});};
+/* ]]> */</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="REFRESH" CONTENT="300">
+<meta name="expires" content="Thu, 04 Jun 2026 06:58:26 GMT">
+
+<style type="text/css">
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+}
+.hideDiv { 
+    display: inline-block; 
+}
+@media only screen and (max-width: 800px) {
+        .hideDiv{
+            display: none;
+        }
+    }
+
+</style>
+<title>player - 2025 WIAA Boys Championship - D2 - 2025-06-08</title>
+<link href="/resource/gsstyles.css?v=1.25" type=text/css rel=stylesheet>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-218784916-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-218784916-1');
+</script>
+
+</head>
+
+<body>
+
+	<div style="clear:both;width:100%;">
+		<!-- GolfStat golfweek Nike -->
+		<div  style="width:100%;margin:5px 0px 5px 0px;" align="center">
+			
+			
+			<script type='text/javascript'>
+					var gptadslots=[], googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+					(function(){ var gads = document.createElement('script');
+						 gads.async = true; gads.type = 'text/javascript';
+						 var useSSL = 'https:' == document.location.protocol;
+						 gads.src = (useSSL ? 'https:' : 'https:') + '//www.googletagservices.com/tag/js/gpt.js';
+						 var node = document.getElementsByTagName('script')[0];
+						 node.parentNode.insertBefore(gads, node);
+					})();
+			</script>
+			<script type='text/javascript' src='https://img.bnqt.com/lib/js/sdpdfphelper.js'></script>
+			<script type='text/javascript'>
+					googletag.cmd.push(function() {
+						 googletag.pubads().enableAsyncRendering(); googletag.pubads().enableSingleRequest();
+						 googletag.pubads().setTargeting('title', sdpTargeting.title)
+												 .setTargeting('targetPaths', sdpTargeting.targetPaths)
+												 .setTargeting('fullPath', sdpTargeting.fullPath)
+												 .setTargeting('queryStr', sdpTargeting.queryStr)
+												 .setTargeting('domainName', sdpTargeting.domainName);
+					});
+			</script>
+			<!-- DFP SETUP end -->
+			
+					<!-- SMG_Golfstat/728x90_2a/sports/golf/general -->
+					<div id='usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general'>
+						  <script type='text/javascript'>
+								googletag.cmd.push(function() {
+									 googletag.defineSlot('/7103,22643639221/SMG_Golfstat/728x90_2a/sports/golf/general', [728,90], 'usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general').addService(googletag.pubads());
+									 googletag.enableServices();
+									 googletag.display('usmg_ad_SMG_Golfstat_728x90_2a_sports_golf_general');
+								});
+						  </script>
+					</div>
+				
+
+
+
+
+		</div>
+	</div>
+
+
+	<div style="background:url('/images/logos/2016wiaa.gif');min-height:100%;min-width:100%;display:flex auto;border:0px solid green;">
+        
+        
+        
+	<script>
+		function getScorecard(tid,rid,pcid,bg,handicap,stayVisible) {
+			var scDiv = 'Player'+pcid;
+			//alert(document.getElementById(scDiv).style.visibility);
+			if (document.getElementById(scDiv).style.visibility == 'visible' && stayVisible != 1) {
+				document.getElementById(scDiv).style.display='none';
+				document.getElementById(scDiv).style.visibility='hidden';
+			}
+			else {
+				var instance = new scorecard();
+				instance.setCallbackHandler(placeScorecard);
+				if (rid == 99) {
+					instance.getEmbeddedScorecardsAllRounds(tid,pcid,1,1,bg);
+				}
+				else {
+					instance.getEmbeddedScorecard(tid,rid,pcid,stayVisible,bg,handicap);
+					//instance.getEmbeddedScorecard(tid,rid,pcid);
+				}
+			}
+		}
+		
+		function placeScorecard(result) {
+			//alert(result.PCID[0]);
+			//alert(result.CONTENT[0]);
+			var scDiv = 'Player'+result.PCID;
+			//alert(scDiv);
+			document.getElementById(scDiv).style.display='block';
+			document.getElementById(scDiv).style.visibility='visible';
+			document.getElementById(scDiv).innerHTML = result.CONTENT;
+		}
+		// function placeScorecard(result) {
+		// 	//alert(result.PCID[0]);
+		// 	//alert(result.CONTENT[0]);
+		// 	var scDiv = 'Player'+result.PCID[0];
+		// 	//alert(scDiv);
+		// 	document.getElementById(scDiv).style.display='block';
+		// 	document.getElementById(scDiv).style.visibility='visible';
+		// 	document.getElementById(scDiv).innerHTML = result.CONTENT[0];
+		// }
+	</script>
+
+<div style="padding:1px;font-family:Arial, Helvetica, sans-serif;font-size:.9em;" align="center">
+	<div>
+		<div style="display:inline-block;background-color:#05643A;color:white;border:1px solid blue;">
+ 			
+			<div style="width:100%;">
+				
+<style>
+    .bgimage {
+        background-image: url(/images/Header2021_1130x150.png);
+        width: auto;
+        height: auto;
+    }
+</style>
+
+        
+        <div style="height:150px;padding:1px;font-family:Arial, Helvetica, sans-serif;font-size:.9em;background-color:#CDDECD;color:#05643A; background-image:url(/images/Header2021_1130x150.png);" align="left">
+            
+            
+            <div style="height:79%;width:100%;">
+                <div style="display:inline-block;width:130px;">
+                    <a href="http://www.golfstat.com"><img src="/images/GSlogo_255x74.svg" width="120" border="0" alt="Golfstat" title="Golfstat" style="margin-left:0.5em; margin-top:0.25em;"></a>
+                </div>
+                <div style="display:inline-block;padding-top:4px;margin-left:-0.5em;font-weight:bold; vertical-align:top;">
+                    Live Scoring for Competitive Team Golf!
+                </div>
+            </div>
+            
+                <div style="width:100%; border:0px solid silver;">
+                    	
+<div style="clear:both;width:100%;">
+
+                                <div style="width:100%;white-space:nowrap;min-width:47em;">
+                                    
+                                        <div style="display:inline-block;width:20.0%;" align="left">
+                                            
+                                            <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team Leaderboard" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=team&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=team&tid=29418'; }">
+                                            
+                                        </div>
+                                        
+                                            <div style="display:inline-block;width:59.0%;" align="center">
+                                                
+                                                    
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team/Player LB" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=teamPlayer&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=teamPlayer&tid=29418'; }">
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Pairings" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=pairings&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=pairings&tid=29418'; }">
+                                                    <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Team/Player Stats" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=stats&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=stats&tid=29418'; }">
+                                                    
+                                                    <button class="btn btn-default btn-xs" style="font-size:0.9em;font-style: italic;" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=print&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=print&tid=29418'; }">Printables <img src="/images/print_icon.gif" border="0" align="absmiddle" height="14"></button>&nbsp;&nbsp;&nbsp;
+                                                
+                                            </div>
+                                        
+                                        <div style="display:inline-block;width:20.0%;" align="right">
+                                            
+                                            <input class="btn btn-default btn-xs" style="font-size:0.9em;" type="button" value="Player Leaderboard" onclick="if (window.self !== window.top) { window.open('/public/leaderboards/gsnav.cfm?pg=player&tid=29418'); } else { window.location='/public/leaderboards/gsnav.cfm?pg=player&tid=29418'; }">
+                                        </div>
+                                    
+                                </div>
+                                
+</div>
+
+                </div>
+            
+        </div>
+    
+			</div>
+				<div style="text-align:center;background-color:#05643A;color:white;padding:5px;white-space:nowrap;">
+					<div align="left" style="display:inline-block;text-align:center;vertical-align:central;width:19%;padding-top:1em;">
+						<div align="center" style="vertical-align:middle;">
+							
+						</div>
+					</div>
+					<div align="center" style="display:inline-block;text-align:center;vertical-align:top;width:60%;">
+						<div align="center" style="vertical-align:middle;">
+                            
+							<div style="font-weight:bold;font-size:larger;">
+								
+				<select style="color:#000 !important; font-size:70% !important;" name="relatedTournamentIDs" onchange="window.location='/public/leaderboards/gsnav.cfm?pg=player&&lb=&x=0.275820799753&tid='+this.value;">
+					
+						<option value="29417" >2025 WIAA Boys Championship - D1</option>
+					
+						<option value="29418" selected>2025 WIAA Boys Championship - D2</option>
+					
+						<option value="29422" >2025 WIAA Boys Championship - D3</option>
+					
+				</select>
+			
+							</div>
+							<div>Player Leaderboard</div>
+							
+								<div>
+									University Ridge Golf Course - WIAA Boy's Championship D2
+									<br/>Par 72 - 6521 Yards
+								</div>
+							
+							<div>Verona, WI US</div>
+							<div style="width:100%;white-space:nowrap;">
+								<div style="display:inline-block;" align="center">
+									Jun 8-10, 2025 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div align="right" style="display:inline-block;text-align:center;vertical-align:central;width:19%;;padding-top:1em;">
+						<div align="center" style="vertical-align:middle;">
+							
+						</div>
+					</div>
+				</div>
+
+			
+
+				<div style="text-align:center;background-color:#f3f3f3;color:#900;padding:5px;width:auto;border:2px solid silver;" align="center">
+					<div style="display:inline-block;max-width:600px;border:0px solid silver;">
+						<div style="text-align:left;font-family:Verdana, Geneva, sans-serif;font-size:0.8em;padding:2px 7px;">V Sigl defeated K Bystol Flores on a one hole playoff 4-5 to capture medalist title</div>
+					</div>
+				</div>
+			
+
+			<div style="margin-top:3px;">
+				<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">Pos</div>
+				<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;"><span style="background-color:#FFFFFF; padding:0px 3px; "> <img src="/images/moveup.png" align="absmiddle"> <img src="/images/movedown.png" align="absmiddle"> </span></div>
+				<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">Player</div>
+				<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">Team</div>
+				<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">To Par</div>
+				<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">Thru</div>
+				<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">Today</div>
+				
+					<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;"><a href="/public/leaderboards/gsnav.cfm?pg=player&tid=29418&rid=1" style="color:white;">R1</a></div>
+				
+					<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;"><a href="/public/leaderboards/gsnav.cfm?pg=player&tid=29418&rid=2" style="color:white;">R2</a></div>
+				
+				<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">Total</div>
+			</div>
+			<div style="width:100%;">
+				<div style="display:inline-block;background-color:#ffffff;border:0px solid blue;padding:5px; white-space:nowrap;">
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T1</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Vince Sigl" onclick="getScorecard(29418,2,419393,'05643A',0)">Vince Sigl</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Seymour 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++3 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> E </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>75</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>72</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								147
+							</div>
+						</div>
+						
+						<div id="Player419393" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T1</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+                                    
+									-
+								
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Kian Bystol Flores" onclick="getScorecard(29418,2,419375,'05643A',0)">Kian Bystol Flores</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Cambridge 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++3 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +1 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>74</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>73</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								147
+							</div>
+						</div>
+						
+						<div id="Player419375" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">3</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Fritz Knudtson" onclick="getScorecard(29418,2,419380,'05643A',0)">Fritz Knudtson</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Cambridge 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++6 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +4 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>74</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>76</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								150
+							</div>
+						</div>
+						
+						<div id="Player419380" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">4</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Tyler Short" onclick="getScorecard(29418,2,419374,'05643A',0)">Tyler Short</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Big Foot 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++7 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +3 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>76</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>75</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								151
+							</div>
+						</div>
+						
+						<div id="Player419374" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">5</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Tyler Reiter" onclick="getScorecard(29418,2,419602,'05643A',0)">Tyler Reiter</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prescott 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++8 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +5 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>75</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								152
+							</div>
+						</div>
+						
+						<div id="Player419602" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T6</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jackson Albee" onclick="getScorecard(29418,2,419389,'05643A',0)">Jackson Albee</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Catholic Memorial 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++10 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +4 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>78</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>76</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								154
+							</div>
+						</div>
+						
+						<div id="Player419389" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T6</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Elliot Skinner" onclick="getScorecard(29418,2,419594,'05643A',0)">Elliot Skinner</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Altoona 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++10 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>75</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								154
+							</div>
+						</div>
+						
+						<div id="Player419594" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">8</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 15 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jack Nelson" onclick="getScorecard(29418,2,419376,'05643A',0)">Jack Nelson</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Big Foot 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++11 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> E </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>72</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								155
+							</div>
+						</div>
+						
+						<div id="Player419376" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T9</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Sullivan Mellowes" onclick="getScorecard(29418,2,398979,'05643A',0)">Sullivan Mellowes</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								University School of Milwaukee 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++12 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +4 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>76</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								156
+							</div>
+						</div>
+						
+						<div id="Player398979" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T9</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Collin Draeger" onclick="getScorecard(29418,2,419403,'05643A',0)">Collin Draeger</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Kettle Moraine Lutheran 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++12 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								156
+							</div>
+						</div>
+						
+						<div id="Player419403" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">11</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 1 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Parker Strozewski" onclick="getScorecard(29418,2,419402,'05643A',0)">Parker Strozewski</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Grafton 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++13 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +5 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								157
+							</div>
+						</div>
+						
+						<div id="Player419402" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T12</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Klyne Johnson" onclick="getScorecard(29418,2,419408,'05643A',0)">Klyne Johnson</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Evansville 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++14 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								158
+							</div>
+						</div>
+						
+						<div id="Player419408" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T12</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Cole Herbst" onclick="getScorecard(29418,2,419409,'05643A',0)">Cole Herbst</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Platteville 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++14 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								158
+							</div>
+						</div>
+						
+						<div id="Player419409" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T14</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 5 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Brayden Becker" onclick="getScorecard(29418,2,419398,'05643A',0)">Brayden Becker</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								University School of Milwaukee 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++15 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +5 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								159
+							</div>
+						</div>
+						
+						<div id="Player419398" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T14</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Davis Kock" onclick="getScorecard(29418,2,419598,'05643A',0)">Davis Kock</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Lakeland 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++15 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								159
+							</div>
+						</div>
+						
+						<div id="Player419598" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">16</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 7 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Tre Wienke" onclick="getScorecard(29418,2,419406,'05643A',0)">Tre Wienke</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Sturgeon Bay 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++16 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +5 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								160
+							</div>
+						</div>
+						
+						<div id="Player419406" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T17</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 5 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Owen Sigl" onclick="getScorecard(29418,2,419394,'05643A',0)">Owen Sigl</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Seymour 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++17 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +9 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>81</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								161
+							</div>
+						</div>
+						
+						<div id="Player419394" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T17</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 8 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jeremy Hensen" onclick="getScorecard(29418,2,419597,'05643A',0)">Jeremy Hensen</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Lakeland 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++17 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +10 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								161
+							</div>
+						</div>
+						
+						<div id="Player419597" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T19</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+                                    
+									-
+								
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Shaymus Smith" onclick="getScorecard(29418,2,419405,'05643A',0)">Shaymus Smith</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Little Chute 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++18 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +8 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								162
+							</div>
+						</div>
+						
+						<div id="Player419405" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T19</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 7 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Joshua Parins" onclick="getScorecard(29418,2,419407,'05643A',0)">Joshua Parins</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Luxemburg-Casco 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++18 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +10 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>80</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								162
+							</div>
+						</div>
+						
+						<div id="Player419407" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">21</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 12 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Braiden Rasmussen" onclick="getScorecard(29418,2,419607,'05643A',0)">Braiden Rasmussen</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Saint Croix Central 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++19 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +5 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>86</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>77</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								163
+							</div>
+						</div>
+						
+						<div id="Player419607" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T22</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 8 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Tristan Drath" onclick="getScorecard(29418,2,419395,'05643A',0)">Tristan Drath</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Seymour 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++20 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +7 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>79</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								164
+							</div>
+						</div>
+						
+						<div id="Player419395" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T22</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 1 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Derek Watry" onclick="getScorecard(29418,2,75690,'05643A',0)">Derek Watry</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Xavier 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++20 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +9 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>81</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								164
+							</div>
+						</div>
+						
+						<div id="Player75690" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T24</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 1 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Liam Aldoff" onclick="getScorecard(29418,2,419595,'05643A',0)">Liam Aldoff</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Hayward 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++21 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +10 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								165
+							</div>
+						</div>
+						
+						<div id="Player419595" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T24</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 5 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Luke Kinneman" onclick="getScorecard(29418,2,419605,'05643A',0)">Luke Kinneman</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prescott 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++21 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +11 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								165
+							</div>
+						</div>
+						
+						<div id="Player419605" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">26</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 9 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Henry Laurent" onclick="getScorecard(29418,2,419397,'05643A',0)">Henry Laurent</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Seymour 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++22 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +13 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>81</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								166
+							</div>
+						</div>
+						
+						<div id="Player419397" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">27</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 10 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Max Maciosek Arent" onclick="getScorecard(29418,2,419388,'05643A',0)">Max Maciosek Arent</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Catholic Memorial 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++23 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +14 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>81</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>86</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								167
+							</div>
+						</div>
+						
+						<div id="Player419388" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">28</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+                                    
+									-
+								
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Talen Pockat" onclick="getScorecard(29418,2,419599,'05643A',0)">Talen Pockat</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Lakeland 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++24 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +12 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>84</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>84</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								168
+							</div>
+						</div>
+						
+						<div id="Player419599" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">29</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 10 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Grant Neumann" onclick="getScorecard(29418,2,419386,'05643A',0)">Grant Neumann</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Xavier 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++27 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>82</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								171
+							</div>
+						</div>
+						
+						<div id="Player419386" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T30</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 8 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jonah Gentry" onclick="getScorecard(29418,2,419385,'05643A',0)">Jonah Gentry</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Xavier 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++28 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +12 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>88</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>84</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								172
+							</div>
+						</div>
+						
+						<div id="Player419385" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T30</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 6 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Joe Schmidt" onclick="getScorecard(29418,2,419390,'05643A',0)">Joe Schmidt</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Catholic Memorial 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++28 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +13 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>87</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								172
+							</div>
+						</div>
+						
+						<div id="Player419390" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T30</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Cyrus Laterman" onclick="getScorecard(29418,2,419400,'05643A',0)">Cyrus Laterman</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								University School of Milwaukee 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++28 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +16 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>84</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>88</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								172
+							</div>
+						</div>
+						
+						<div id="Player419400" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">33</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 8 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Dakota Nordmeyer" onclick="getScorecard(29418,2,419377,'05643A',0)">Dakota Nordmeyer</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Big Foot 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++29 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +11 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>90</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								173
+							</div>
+						</div>
+						
+						<div id="Player419377" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T34</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 6 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Kyle Watry" onclick="getScorecard(29418,2,419384,'05643A',0)">Kyle Watry</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Xavier 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++30 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +13 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								174
+							</div>
+						</div>
+						
+						<div id="Player419384" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T34</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 4 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Zac Peplinski" onclick="getScorecard(29418,2,419391,'05643A',0)">Zac Peplinski</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Catholic Memorial 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++30 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								174
+							</div>
+						</div>
+						
+						<div id="Player419391" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T34</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 4 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Aidan Peters" onclick="getScorecard(29418,2,419396,'05643A',0)">Aidan Peters</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Seymour 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++30 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>85</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								174
+							</div>
+						</div>
+						
+						<div id="Player419396" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">37</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 4 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Harrison Linderholm" onclick="getScorecard(29418,2,419604,'05643A',0)">Harrison Linderholm</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prescott 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++31 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>86</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								175
+							</div>
+						</div>
+						
+						<div id="Player419604" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T38</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 7 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Ben Baker" onclick="getScorecard(29418,2,419382,'05643A',0)">Ben Baker</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Cambridge 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++32 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +11 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>93</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								176
+							</div>
+						</div>
+						
+						<div id="Player419382" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T38</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Owen Achenbach" onclick="getScorecard(29418,2,419410,'05643A',0)">Owen Achenbach</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prairie du Chien 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++32 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>87</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								176
+							</div>
+						</div>
+						
+						<div id="Player419410" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">40</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 7 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jaxson Voit" onclick="getScorecard(29418,2,419404,'05643A',0)">Jaxson Voit</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Kewaskum 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++33 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +19 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>86</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>91</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								177
+							</div>
+						</div>
+						
+						<div id="Player419404" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T41</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Roman Vilona" onclick="getScorecard(29418,2,419379,'05643A',0)">Roman Vilona</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Big Foot 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++34 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +14 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>92</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>86</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								178
+							</div>
+						</div>
+						
+						<div id="Player419379" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T41</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 18 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Michael Melka" onclick="getScorecard(29418,2,419600,'05643A',0)">Michael Melka</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Lakeland 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++34 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +23 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>83</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>95</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								178
+							</div>
+						</div>
+						
+						<div id="Player419600" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">43</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+                                    
+									-
+								
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jack Baker" onclick="getScorecard(29418,2,419381,'05643A',0)">Jack Baker</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Cambridge 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++36 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>91</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								180
+							</div>
+						</div>
+						
+						<div id="Player419381" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">44</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 6 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Sam Vesperman" onclick="getScorecard(29418,2,419603,'05643A',0)">Sam Vesperman</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prescott 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++39 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +23 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>88</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>95</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								183
+							</div>
+						</div>
+						
+						<div id="Player419603" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">45</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 4 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jack Schmidke" onclick="getScorecard(29418,2,419387,'05643A',0)">Jack Schmidke</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Xavier 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++40 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +22 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>90</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>94</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								184
+							</div>
+						</div>
+						
+						<div id="Player419387" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T46</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Frank Manakas" onclick="getScorecard(29418,2,419383,'05643A',0)">Frank Manakas</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Cambridge 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++41 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +17 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>96</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>89</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								185
+							</div>
+						</div>
+						
+						<div id="Player419383" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T46</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 1 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Henry Bechthold" onclick="getScorecard(29418,2,419399,'05643A',0)">Henry Bechthold</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								University School of Milwaukee 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++41 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +19 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>94</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>91</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								185
+							</div>
+						</div>
+						
+						<div id="Player419399" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">48</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 3 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Theodoros Dimitropoulous" onclick="getScorecard(29418,2,419401,'05643A',0)">T. Dimitropoulous&hellip;</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								University School of Milwaukee 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++42 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +21 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>93</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>93</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								186
+							</div>
+						</div>
+						
+						<div id="Player419401" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T49</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jaydan Schilling" onclick="getScorecard(29418,2,419601,'05643A',0)">Jaydan Schilling</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Lakeland 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++51 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +22 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>101</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>94</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								195
+							</div>
+						</div>
+						
+						<div id="Player419601" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">T49</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/moveup.png" align="absmiddle"> 1 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Beau Risdon" onclick="getScorecard(29418,2,419606,'05643A',0)">Beau Risdon</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Prescott 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++51 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +23 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>100</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>95</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								195
+							</div>
+						</div>
+						
+						<div id="Player419606" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">51</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+									<img src="/images/movedown.png" align="absmiddle"> 2 
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Tanner Tusing" onclick="getScorecard(29418,2,419392,'05643A',0)">Tanner Tusing</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Catholic Memorial 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++57 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +31 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>98</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>103</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								201
+							</div>
+						</div>
+						
+						<div id="Player419392" style="display:none;visibility:hidden;"></div>
+					
+						<div style="color:black;">
+						
+
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">52</div>
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center; white-space:nowrap;">
+								&nbsp;
+								<span style="font-size:smaller;">
+								
+                                    
+									-
+								
+								&nbsp;
+								</span>
+								
+							</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">
+									
+										<a href="javascript://" title="Jackson Brown" onclick="getScorecard(29418,2,419378,'05643A',0)">Jackson Brown</a>
+									
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:195px;padding:2px 2px 2px 5px; text-align:left;">  
+								Big Foot 
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center">
++63 
+							</div></div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;">
+								F 					
+							</div>
+							<div style="display:inline-block;border:1px solid silver; width:50px;padding:2px; text-align:center;"><div style="white-space:nowrap;text-align:right;width:2.5em;" align="center"> +31 </div></div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>104</round_score> 
+								</div>
+							
+								<div style="display:inline-block;border:1px solid silver; width:30px;padding:2px; text-align:center;">
+									<?xml version="1.0" encoding="UTF-8"?><round_score>103</round_score> 
+								</div>
+							
+							<div style="display:inline-block;border:1px solid silver; width:40px;padding:2px; text-align:center;">
+								207
+							</div>
+						</div>
+						
+						<div id="Player419378" style="display:none;visibility:hidden;"></div>
+					
+				</div>
+				
+			</div>
+
+		</div>
+		
+					
+		<div style="background-color:white;margin:2em;"></div>
+	</div>
+</div>
+
+	</div>
+
+
+</body>
+
+</html>

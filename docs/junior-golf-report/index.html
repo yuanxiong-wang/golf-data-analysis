@@ -428,6 +428,41 @@
       font-size: 14px;
     }
 
+    .growth-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(300px, 1.05fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .growth-points {
+      display: grid;
+      gap: 12px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .growth-points li {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfa;
+    }
+
+    .growth-points b {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--green-dark);
+    }
+
+    .growth-points span {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
     footer {
       padding: 28px 0 40px;
       color: var(--muted);
@@ -437,6 +472,7 @@
     @media (max-width: 900px) {
       .section-head,
       .grid-2,
+      .growth-grid,
       .source-map,
       .recommendations {
         grid-template-columns: 1fr;
@@ -857,19 +893,120 @@
 
     <section>
       <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>GKZID Growth Targeting Layer</h2>
+            <p>
+              GKZID already has early proof: the platform reported more than 15,320 cards/users in its first month,
+              and the live homepage counter observed during this review shows 15,479+ cards built. The junior golf
+              dataset gives that traction a sharper wedge: real athlete achievement moments where a player card,
+              identity page, or verified profile has a natural reason to be shared.
+            </p>
+          </div>
+          <p class="note">
+            Use the Golfstat data for segment selection, content themes, event timing, and aggregate insights.
+            Do not scrape contact details or mass-message minors. The strongest growth motion is opt-in sharing
+            through athletes, parents, coaches, teams, and event communities.
+          </p>
+        </div>
+
+        <div class="kpis" aria-label="GKZID growth targeting metrics">
+          <div class="kpi">
+            <strong>15.3k+</strong>
+            <span>Reported first-month GKZID card/user base, before focused sport-by-sport targeting.</span>
+          </div>
+          <div class="kpi">
+            <strong>592</strong>
+            <span>Current junior-golf player rows that reveal shareable achievement moments.</span>
+          </div>
+          <div class="kpi">
+            <strong>325</strong>
+            <span>WIAA high-school player rows, the clearest local team and parent-community wedge.</span>
+          </div>
+          <div class="kpi">
+            <strong>373/219</strong>
+            <span>Boys/girls player split, useful for balanced creator, parent, and team messaging.</span>
+          </div>
+        </div>
+
+        <div class="growth-grid" style="margin-top: 20px">
+          <div class="panel">
+            <h3>Best Initial Audience Wedges</h3>
+            <ul class="growth-points">
+              <li>
+                <b>Leaderboard moment pages</b>
+                <span>Create social posts and landing pages around public results: "You made the board. Now build the card that tells the story."</span>
+              </li>
+              <li>
+                <b>Team roster kits</b>
+                <span>Target WIAA and Toyota team events with coach-friendly roster card packs, not one-off individual signups.</span>
+              </li>
+              <li>
+                <b>Parent share loops</b>
+                <span>Parents are natural distributors for junior achievements. Give them simple share copy, card examples, and milestone templates.</span>
+              </li>
+              <li>
+                <b>Verified athlete pathway</b>
+                <span>Use VAN as the trust layer: a badge is more viral when athletes understand how to earn, display, and share it.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>30-Day Viral Test Plan</h3>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Week</th>
+                    <th>Test</th>
+                    <th>Measure</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Publish 5 junior-golf card examples mapped to real event types: WIAA, Elite Invitational, Toyota.</td>
+                    <td>Card starts, profile shares, signup conversion from each example.</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Launch a "Leaderboard to Player Card" challenge for athletes and parents.</td>
+                    <td>Share rate per card, returning edits, social mentions.</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Offer team roster card packs to coaches or team parents for WIAA-style events.</td>
+                    <td>Cards per team, team invite acceptance, coach referrals.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Feature top opt-in cards in a GKZID/VAN showcase and repost on social.</td>
+                    <td>Referral signups, card completion rate, featured-card clickthrough.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
         <h2>Recommended Next Moves</h2>
         <div class="recommendations">
           <div class="rec">
             <h3>Weekly refresh</h3>
-            <p>Run the scraper weekly and diff current boards to identify new events, changing leaders, and stale tournaments.</p>
+            <p>Run the scraper weekly and turn new leaderboard moments into timely GKZID card prompts and social posts.</p>
           </div>
           <div class="rec">
-            <h3>Recruiting view</h3>
-            <p>Create player profiles by event history, scoring average, finish position, gender segment, and event family.</p>
+            <h3>Event wedge</h3>
+            <p>Start with WIAA, Elite Invitational, and Toyota Junior segments before expanding to every sport.</p>
           </div>
           <div class="rec">
-            <h3>Boss-ready export</h3>
-            <p>Keep this HTML page as the living report and generate short slide decks only for specific meetings.</p>
+            <h3>Share loop</h3>
+            <p>Make every card a recruiting, parent, coach, and teammate sharing object with attribution back to GKZID.</p>
           </div>
         </div>
       </div>

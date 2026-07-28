@@ -25,3 +25,7 @@ __pycache__/
 # Local secrets
 .env
 .env.*
+
+# Local FlareMo exporter state
+scripts/export_flaremo_inbox.py
+.flaremo-export-cursor.json

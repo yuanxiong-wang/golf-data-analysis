@@ -514,10 +514,12 @@
       <h1>Turning public junior golf results into a repeatable scouting dataset.</h1>
       <p class="lede">
         This report summarizes the first working data pipeline for Golfstat's Junior Golf and high-school leaderboard coverage:
-        source discovery, raw snapshots, parsed event records, current leaderboards, and analysis-ready CSV outputs.
+        source discovery, raw snapshots, parsed event records, dated leaderboards, and analysis-ready CSV outputs.
       </p>
       <ul class="meta" aria-label="Report metadata">
-        <li><time datetime="2026-08-09">Generated August 9, 2026</time></li>
+        <li><time datetime="2026-10-11">Report corrected October 11, 2026</time></li>
+        <li><time datetime="2026-06-04">Full dataset baseline: June 4, 2026</time></li>
+        <li><time datetime="2026-08-09">Toyota miniboard capture: August 9, 2026</time></li>
         <li>Source: Golfstat homepage and Junior event list</li>
         <li>Repo: golf-data-analysis</li>
       </ul>
@@ -533,7 +535,7 @@
             <p>
               The project now has a reproducible path from Golfstat public pages to structured datasets.
               The Junior Golf section is broad enough for trend tracking: 172 archive events were parsed across
-              2002-2025, while the current homepage exposure covers 11 active tournament IDs with player and
+              2002-2025, while the June 4, 2026 homepage capture covers 11 tournament IDs with player and
               team leaderboards where available.
             </p>
           </div>
@@ -550,21 +552,21 @@
           </div>
           <div class="kpi">
             <strong>11</strong>
-            <span>Current Junior or high-school tournament IDs exposed on the homepage.</span>
+            <span>Junior or high-school tournament IDs in the June 4, 2026 baseline.</span>
           </div>
           <div class="kpi">
             <strong>592</strong>
-            <span>Current full player leaderboard rows in structured CSV form.</span>
+            <span>Full player leaderboard rows in the June 4, 2026 baseline; not a live count.</span>
           </div>
           <div class="kpi">
             <strong>71</strong>
-            <span>Current full team leaderboard rows captured for team events.</span>
+            <span>Full team leaderboard rows in the June 4, 2026 baseline; not a live count.</span>
           </div>
         </div>
         <p class="note">
-          <strong>Latest published snapshot:</strong>
+          <strong>Separate Toyota 2026 miniboard snapshot:</strong>
           <a href="data/junior_golf_miniboard_leaders_2026-08-09.csv">Download the August 9, 2026 CSV</a>
-          — 39 leaderboard rows across two junior events.
+          — 39 leaderboard rows across two junior events played June 23-26, 2026. This limited miniboard snapshot is not included in the 592-player / 71-team baseline totals above. Neither dataset has been refreshed by this October 11 correction.
         </p>
       </div>
     </section>
@@ -656,8 +658,8 @@
           </div>
 
           <div class="panel">
-            <h2>Current Coverage</h2>
-            <p>Homepage Junior and high-school boards currently cover boys, girls, player, and team views.</p>
+            <h2>Baseline Coverage</h2>
+            <p>The June 4, 2026 homepage capture covers boys, girls, player, and team views. These are historical dataset counts, not today's homepage coverage.</p>
             <div class="chart-wrap" aria-label="Coverage chart">
               <div class="coverage-chart">
                 <div class="stack">
@@ -719,9 +721,9 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <h2>Current Tournament Coverage</h2>
+            <h2>Baseline Tournament Coverage</h2>
             <p>
-              These are the current Junior and high-school tournaments parsed from the Golfstat homepage boards,
+              These are the Junior and high-school tournaments parsed from the June 4, 2026 Golfstat homepage capture,
               with full leaderboards linked when available.
             </p>
           </div>
@@ -842,7 +844,7 @@
       <div class="wrap">
         <div class="grid-2">
           <div class="panel">
-            <h2>Representative Leaders</h2>
+            <h2>Baseline Representative Leaders</h2>
             <div class="table-scroll">
               <table>
                 <thead>
@@ -871,7 +873,7 @@
           <div class="panel">
             <h2>Quality Notes</h2>
             <p>
-              The parsed CSVs preserve both the displayed total and the visible round-score sum. One row currently
+              The June 4 baseline CSVs preserve both the displayed total and the visible round-score sum. One baseline row
               has a mismatch between those values, which appears to come from the source page itself rather than
               the parser. This is useful: the dataset can flag scoring anomalies without silently correcting them.
             </p>
@@ -922,15 +924,15 @@
           </div>
           <div class="kpi">
             <strong>592</strong>
-            <span>Current junior-golf player rows that reveal shareable achievement moments.</span>
+            <span>June 4, 2026 baseline player rows for historical content research, not a current outreach list.</span>
           </div>
           <div class="kpi">
             <strong>325</strong>
-            <span>WIAA high-school player rows, the clearest local team and parent-community wedge.</span>
+            <span>WIAA high-school player rows in the June 4 baseline; verify the latest event edition before outreach.</span>
           </div>
           <div class="kpi">
             <strong>373/219</strong>
-            <span>Boys/girls player split, useful for balanced creator, parent, and team messaging.</span>
+            <span>Boys/girls row split in the June 4 baseline, not unique-athlete counts.</span>
           </div>
         </div>
 
@@ -1004,8 +1006,8 @@
             <h2>WIAA Social Sprint</h2>
             <p>
               The first viral test should stay narrow: WIAA high-school golf. It has the densest signal in this
-              dataset, with 325 player rows, 50 team rows, 5 events, and 109 school or affiliation signals.
-              The campaign turns leaderboard moments into GKZiD card starts.
+              June 4, 2026 baseline, with 325 player rows, 50 team rows, 5 events, and 109 school or affiliation signals.
+              Verify current event editions before outreach. The campaign turns leaderboard moments into GKZiD card starts.
             </p>
           </div>
           <p class="note">
@@ -1123,7 +1125,7 @@
         <div class="recommendations">
           <div class="rec">
             <h3>Weekly refresh</h3>
-            <p>Run the scraper weekly and turn new leaderboard moments into timely GKZID card prompts and social posts.</p>
+            <p>Review Golfstat weekly for new junior-event evidence and draft dated report updates for approval. The GitHub-to-FlareMo handoff alone does not refresh these datasets.</p>
           </div>
           <div class="rec">
             <h3>Event wedge</h3>
@@ -1145,3 +1147,4 @@
   </footer>
 </body>
 </html>
+
